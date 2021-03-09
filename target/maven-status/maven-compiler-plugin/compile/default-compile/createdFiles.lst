@@ -1,0 +1,13 @@
+steps\LifeTravelPageSteps.class
+pages\FormingPage.class
+util\TestProperties.class
+util\AllureListener.class
+steps\BaseSteps.class
+steps\FormingPageSteps.class
+steps\KatalogPageSteps.class
+pages\MainPage.class
+pages\LifeTravelPage.class
+steps\MainPageSteps.class
+pages\RegistrationPage.class
+pages\KatalogPage.class
+steps\RegistrationPageSteps.class

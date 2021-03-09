@@ -1,0 +1,17 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Заявка на страховку путешественника",
+    "uid" : "811a3ade39923ed5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1615330205928,
+      "stop" : 1615330222887,
+      "duration" : 16959
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

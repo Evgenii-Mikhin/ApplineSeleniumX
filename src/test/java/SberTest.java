@@ -1,6 +1,6 @@
-import org.junit.Test;
 import steps.*;
-import io.qameta.allure.junit4.DisplayName;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 public class SberTest extends BaseSteps {
 

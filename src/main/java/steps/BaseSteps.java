@@ -1,10 +1,12 @@
 package steps;
 
 import io.qameta.allure.Attachment;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.AfterClass;
-import org.junit.Before;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 import util.TestProperties;
 import java.util.Properties;
@@ -18,7 +20,7 @@ public class BaseSteps {
     }
     public static Properties properties = TestProperties.getInstance().getProperties();
 
-    @Before
+    @BeforeEach
     public void setUp() {
         String browser = properties.getProperty("browser");
         if ("firefox".equals(browser)) {
@@ -40,8 +42,8 @@ public class BaseSteps {
   }
 
 
-    @AfterClass
-    public static void afterMethod(){
+    @AfterEach
+    public void afterMethod(){
         driver.quit();
     }
 

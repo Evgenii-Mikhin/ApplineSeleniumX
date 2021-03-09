@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "SberTest",
+    "children" : [ {
+      "name" : "Заявка на страховку путешественника",
+      "uid" : "811a3ade39923ed5",
+      "parentUid" : "4cea57c18861521733bce755f01ad065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615330205928,
+        "stop" : 1615330222887,
+        "duration" : 16959
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4cea57c18861521733bce755f01ad065"
+  } ]
+}

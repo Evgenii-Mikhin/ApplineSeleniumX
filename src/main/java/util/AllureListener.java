@@ -1,14 +1,15 @@
 package util;
-import org.junit.runner.notification.Failure;
 import steps.BaseSteps;
-import javax.xml.transform.Result;
-import io.qameta.allure.junit4.AllureJunit4;
-public class AllureListener extends AllureJunit4 {
+import io.qameta.allure.junit5.AllureJunit5;
+import org.junit.platform.engine.TestExecutionResult;
+import org.junit.platform.launcher.TestIdentifier;
+
+public class AllureListener extends AllureJunit5 {
 
     @Override
-    public void testFailure(Failure failure) throws Exception {
+    public void executionFinished(final TestIdentifier testIdentifier, final TestExecutionResult testExecutionResult) {
         BaseSteps.takeScreenshot();
-        super.testFailure(failure);
+        super.executionFinished(testIdentifier, testExecutionResult);
     }
 /*
     public void result(Result result) {

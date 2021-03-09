@@ -6,7 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import steps.BaseSteps;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 //5.Проверить наличие на странице заголовка – Страхование путешественников
 //6. Нажать на – Оформить Онлайн
