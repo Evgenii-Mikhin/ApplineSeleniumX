@@ -1,10 +1,11 @@
 steps\LifeTravelPageSteps.class
 pages\FormingPage.class
 util\TestProperties.class
-util\AllureListener.class
+util\AllureReporter.class
 steps\BaseSteps.class
 steps\FormingPageSteps.class
 steps\KatalogPageSteps.class
+steps\ScenarioSteps.class
 pages\MainPage.class
 pages\LifeTravelPage.class
 steps\MainPageSteps.class

@@ -1,7 +1,7 @@
 package steps;
 
-import io.qameta.allure.Step;
 import pages.LifeTravelPage;
+import ru.yandex.qatools.allure.annotations.Step;
 
 public class LifeTravelPageSteps {
     @Step("Проверить содержание заголовка {0}")

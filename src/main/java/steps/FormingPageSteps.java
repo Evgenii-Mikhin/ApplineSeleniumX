@@ -1,6 +1,7 @@
 package steps;
-import io.qameta.allure.Step;
+
 import pages.FormingPage;
+import ru.yandex.qatools.allure.annotations.Step;
 
 
 public class FormingPageSteps {

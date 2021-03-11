@@ -1,7 +1,7 @@
 package steps;
 
-import io.qameta.allure.Step;
 import pages.KatalogPage;
+import ru.yandex.qatools.allure.annotations.Step;
 
 public class KatalogPageSteps {
     @Step("Нажать на - Страхование путешественников {0}")
